@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-color: #e0e8ff;
+  font-family: "Red Hat Display";
+  background-repeat: no-repeat;
+  background-size: 100% 437px;
+  margin: 300px auto;
+}
+img {
+  width: 450px;
+  height: 220px;
+  border-radius: 20px 20px 0px 0px;
+}
+.all {
+  margin: auto;
+  width: 450px;
+  height: 697px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+p{
+    color: #717FA6;
+}
+h2 {
+  font-size: 16px;
+}
+h3 {
+  font-size: 16px;
+  color: #717fa6;
+}
+.icon {
+  height: 48px;
+  width: 48px;
+}
+.conteiner1 {
+  border-radius: 11px;
+  width: 354px;
+  height: 98px;
+  font-size: 16px;
+  display: flex;
+  background-color: #f7f9ff;
+  align-items: center;
+  margin: auto;
+  justify-content: space-around;
+}
+
+a {
+  color: blue;
+}
+.little-cont2 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+footer h2 {
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  height: 50px;
+  width: 354px;
+  border-radius: 11px;
+  margin: 32px auto;
+  text-align: center;
+  color: azure;
+
+}
+a :hover{
+    color: #766CF1;
+    text-decoration: none;
+}
+footer h2 :hover{
+    background-color: #766CF1;
+}
+footer h3 :hover{
+    color: black;
+}
